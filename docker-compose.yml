@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    image: confidential
+    environment:
+        - DB_CONNECT_STRING=confidential
+        - DB_USER=confidential
+        - DB_PASSWORD=confidential
